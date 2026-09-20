@@ -18,10 +18,10 @@
 @media (min-width:1000px){
 .Amazon-layout{ grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;}
 }
-@media(max-width:501px) and (min-width:999px){
+@media(max-width:301px) and (min-width:999px){
     .Amazon-layout{grid-template-columns:1fr 1fr 1fr}
 }
-@media (max-width:500px) {
+@media (max-width:300px) {
     .Amazon-layout {
         grid-template-columns:  1fr 1fr 1fr 1fr;
     }
@@ -39,6 +39,7 @@
     justify-content:space-between;
     height: 45px;
     position:fixed;
+    
 }
 .body{
     margin:0;
@@ -54,6 +55,9 @@
    height: 15px;
     justify-content: center;
     align-items: center;
+    width: 0;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+   
 }
 
 .socks{
@@ -69,6 +73,7 @@
     justify-content:center;
     align-items:center;
     width:200px;
+    font-family:arial;
 }
 .ratings{
     height:40px;
@@ -86,6 +91,8 @@
 
 .money{
     margin-top:-25px;
+    font-weight:bold;
+    font-family: arial;
 }
 .down{
     width:165px;
@@ -102,9 +109,9 @@
     border-radius: 4px;
     display:flex;
     height:40px;
-    
+    max-width: 800px;
     flex:1;
-    
+   
     
     
 }
@@ -137,6 +144,7 @@
     margin-top:5px;
     margin-left:20px;
     margin-right:-10px;
+    
 }
 .right-section{
     display:flex;
@@ -146,19 +154,39 @@
     align-items: center;
     margin-top:-15px;
     justify-content: space-between;
+    margin-right:10px;
 }
 .left-words{
     color:white;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom:20px;
+    margin-right: 10px;
+    width:67px;
+    
 }
 .left-word{
     font-weight:bold;
 }
-.shop{
+.shopping{
+    width:55px;
+
+
     
 }
-p{
-    font-weight:bold
+.shop{
+    margin-top:20px;
+}
+.digit{
+    font-weight:bolder;
+    color: darkorange;
+    position:absolute;
+    margin-left:28px;
+}
+.container{
+    padding-left:15px;
+}
+.chrat{
     color:white;
+    margin-bottom:-30px;
+    font-weight:bold;
 }
