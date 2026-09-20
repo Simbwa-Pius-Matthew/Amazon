@@ -1,0 +1,164 @@
+.amazon-pictures{
+    
+    display:inline-block;
+    
+    border-style:solid;
+    border-left:none;
+    border-color:lightgray;
+    border-width:1px;
+    justify-content: column;
+    
+    
+   
+}
+.Amazon.layout{
+    display:flex;
+    vertical-align: top;
+}
+@media (min-width:1000px){
+.Amazon-layout{ grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;}
+}
+@media(max-width:501px) and (min-width:999px){
+    .Amazon-layout{grid-template-columns:1fr 1fr 1fr}
+}
+@media (max-width:500px) {
+    .Amazon-layout {
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+}
+.header{
+    background-color:black;
+    display:flex;
+    top:0;
+    left:0;
+    right:0;
+    padding:10px;
+    margin-right: 0;
+    padding-right: 100px;
+    flex-direction:row;
+    justify-content:space-between;
+    height: 45px;
+    position:fixed;
+}
+.body{
+    margin:0;
+}
+.search-bar{
+    border:none;
+    padding:15px;
+    border-radius:4px;
+    display:flex;
+    flex:1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+   height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socks{
+    width:150px;
+    display:inline-block;
+    padding-left:20px;
+    margin-bottom:15px;
+    padding-top: 50px}
+.amazon-info{
+    display:flex;
+   margin-bottom:10px;
+    
+    justify-content:center;
+    align-items:center;
+    width:200px;
+}
+.ratings{
+    height:40px;
+   
+   
+}
+.total-rating{
+    color:rgb(53, 92, 222);
+}
+.rate{
+    height:20px;
+    width:100px;
+   
+}
+
+.money{
+    margin-top:-25px;
+}
+.down{
+    width:165px;
+    height:35px;
+    background-color:rgb(222, 170, 76);
+    border:none;
+    border-radius:50px;
+    margin-top:40px;
+    margin-bottom:25px;
+    margin-left:20px;
+}
+.middle-section{
+   margin-left:30px;
+    border-radius: 4px;
+    display:flex;
+    height:40px;
+    
+    flex:1;
+    
+    
+    
+}
+.search-button{
+    border:none;
+    background-color: yellow;
+    border-radius:4px;
+    height:45px;
+    padding:11px;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+    justify-content: center;
+    place-items: center;
+
+
+    
+}
+.search-image{
+    height:23px;
+}
+.left-section{
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+.amazon-logo{
+    width:100px;
+    height:40px;
+    margin-top:5px;
+    margin-left:20px;
+    margin-right:-10px;
+}
+.right-section{
+    display:flex;
+    margin-left:30px;
+    width:80px;
+    justify-content: center;
+    align-items: center;
+    margin-top:-15px;
+    justify-content: space-between;
+}
+.left-words{
+    color:white;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.left-word{
+    font-weight:bold;
+}
+.shop{
+    
+}
+p{
+    font-weight:bold
+    color:white;
+}
