@@ -190,3 +190,35 @@
     margin-bottom:-30px;
     font-weight:bold;
 }
+.contain-words{
+    height: 45px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    
+    display:flex;
+    width:100px;
+    padding-left:8px;
+    padding-bottom:5px;
+    padding-right:-20px;
+
+    }
+
+.contain-words:hover{
+    border-color:white;
+    border-style:solid;
+  
+}
+select{
+    background-color:rgb(224, 224, 224);
+    border-radius: 8px;
+    padding:6px;
+    border:none;
+    cursor:pointer;
+}
+option{
+    font-family:arial;
+    font-weight:bold;
+}
