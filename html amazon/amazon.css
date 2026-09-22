@@ -7,13 +7,15 @@
     border-color:lightgray;
     border-width:1px;
     justify-content: column;
+    vertical-align: top;
+    align-items:baseline;
     
     
    
 }
 .Amazon.layout{
     display:flex;
-    vertical-align: top;
+    
 }
 @media (min-width:1000px){
 .Amazon-layout{ grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;}
@@ -43,6 +45,7 @@
 }
 .body{
     margin:0;
+    
 }
 .search-bar{
     border:none;
@@ -57,23 +60,28 @@
     align-items: center;
     width: 0;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    font-family: Roboto, arial;
    
 }
 
 .socks{
-    width:150px;
+    width:170px;
     display:inline-block;
-    padding-left:20px;
+    padding-left:45px;
     margin-bottom:15px;
-    padding-top: 50px}
+    padding-top: 100px;
+    padding-right:45px;
+
+}
 .amazon-info{
-    display:flex;
+    display: grid;
+    grid-template-columns:  1fr;
    margin-bottom:10px;
     
     justify-content:center;
     align-items:center;
     width:200px;
-    font-family:arial;
+    font-family: Roboto, arial;
 }
 .ratings{
     height:40px;
@@ -92,7 +100,7 @@
 .money{
     margin-top:-25px;
     font-weight:bold;
-    font-family: arial;
+    font-family: Roboto, arial;
 }
 .down{
     width:165px;
@@ -162,10 +170,12 @@
     padding-bottom:20px;
     margin-right: 10px;
     width:67px;
+    font-family:Roboto, arial;
     
 }
 .left-word{
     font-weight:bold;
+    font-family:Roboto, arial;
 }
 .shopping{
     width:55px;
@@ -181,6 +191,7 @@
     color: darkorange;
     position:absolute;
     margin-left:28px;
+    font-family:Roboto, arial;
 }
 .container{
     padding-left:20px;
@@ -189,6 +200,7 @@
     color:white;
     margin-bottom:-30px;
     font-weight:bold;
+    font-family:Roboto, arial;
 }
 .contain-words{
     height: 45px;
@@ -219,11 +231,12 @@ select{
     cursor:pointer;
 }
 option{
-    font-family:arial;
-    font-weight:bold;
+    font-family:Roboto, arial;
+    
 }
-.look{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    column-gap:20px;
+select:hover{
+    border-color:yellow;
+}
+option:active{
+    border-color: yellow;
 }
