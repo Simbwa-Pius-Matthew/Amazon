@@ -1,6 +1,7 @@
 .Amazon-outlook {
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(6,
+        minmax(0, 1fr));
 }
 .amazon-pictures{
     display: inline-block;
@@ -45,8 +46,9 @@
     position:fixed;
     
 }
-.body{
+body{
     margin:0;
+    padding-top:60px;
     
 }
 .search-bar{
@@ -72,6 +74,7 @@
     height:170px;
     object-fit:contain;
     margin:0 auto 15px;
+    padding-top:30px;
 
 }
 .amazon-info{
